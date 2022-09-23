@@ -8,9 +8,10 @@ nav {
   width: 85%;
   margin: auto;
 }
+
 .Logo {
   font-weight: 700;
-  font-family: 'Poppins',Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-size: x-large;
 }
@@ -25,20 +26,19 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;  
+  align-items: flex-start;
 }
 
 #firttext {
   font-weight: 700;
-  font-family: 'Poppins',Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  color: #172B4D;
-  font-weight: 700;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: #172b4d;
   font-size: 50px;
   line-height: 52px;
 }
 
 #ntext {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -47,14 +47,15 @@ nav {
 }
 
 #connectbtn {
-  color: #7F8CFF;
+  color: #7f8cff;
   padding: 10px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 }
+
 .nestedchild {
   margin-left: 20px;
 }
