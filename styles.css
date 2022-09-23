@@ -1,0 +1,78 @@
+nav {
+  display: flex;
+  min-height: 44px;
+  flex-wrap: wrap;
+  color: #6070ff;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.Logo {
+  font-weight: 700;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: x-large;
+}
+
+#secondsection {
+  width: 100%;
+  margin-top: 35px;
+  height: 718px;
+  background-image: url(header-shapes_mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#firttext {
+  font-weight: 700;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: #172b4d;
+  font-size: 50px;
+  line-height: 52px;
+}
+
+#ntext {
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+#connectbtn {
+  color: #7f8cff;
+  padding: 10px;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  margin-left: 10px;
+}
