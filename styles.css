@@ -1,11 +1,12 @@
-body{
-  background-color: #E5E5E5;
+body {
+  background-color: #e5e5e5;
   margin: 0;
 }
 
-header{
+header {
   background-color: azure;
 }
+
 .be-flex {
   display: flex;
   min-height: 44px;
@@ -87,12 +88,7 @@ a:hover {
   margin-right: 15px;
 }
 
-.contact-icon {
-  display: inline;
-  margin-right: 15px;
-}
-
-#title-box{
+#title-box {
   padding-top: 35px;
   margin-top: 120px;
   width: 500px;
@@ -100,7 +96,7 @@ a:hover {
 }
 
 #description-box {
-  width:80%;
+  width: 80%;
 }
 
 #section-one {
@@ -137,7 +133,6 @@ a:hover {
   background-color: #e5e5e5;
   margin-top: 200px;
   padding-top: 200px;
-
 }
 
 #section-two-one {
@@ -199,13 +194,12 @@ a:hover {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color:#7f8cff;
+  color: #7f8cff;
   margin-right: 5px;
 }
 
 .display-flex {
   display: flex;
-  
 }
 
 .projects-icons {
@@ -218,14 +212,14 @@ a:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
-  color:#172b4d;
+  color: #172b4d;
   padding: 0;
   margin: 0 0 0 20px;
 }
 
 .grey-circle {
-  width:8px;
-  height:8px; 
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background-color: #c1c7d0;
 }
@@ -243,14 +237,14 @@ a:hover {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 13px;
   line-height: 16px;
-  color:#344563;
+  color: #344563;
 }
 
 .projects-info-rest {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 13px;
   line-height: 16px;
-  color:#7A869A;
+  color:#7a869a;
 }
 
 .projects-description-one {
@@ -259,11 +253,10 @@ a:hover {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin-left: 20px;
   margin: 5px 0 5px 20px;
 }
 
-.see-more{
+.see-more {
   color: #396df2;
   letter-spacing: 0.03em;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -273,10 +266,10 @@ a:hover {
   line-height: 24px;
 }
 
-.see-more-btn{
-  Border: 1px solid #396df2; 
+.see-more-btn {
+  border: 1px solid #396df2;
   background-color: transparent;
-  padding:10px;
+  padding: 10px;
   border-radius: 8px;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -369,7 +362,6 @@ a:hover {
   font-size: 20px;
   line-height: 24px;
   color: black;
-
 }
 
 .fa-angle-down {
@@ -396,7 +388,6 @@ a:hover {
   align-items: center;
   margin-bottom: 12px;
 }
-
 
 .last-container {
   margin-bottom: 30px !important;
@@ -432,25 +423,6 @@ a:hover {
 
 .first-container {
   margin-left: 0 !important;
-}
-
-
-
-.aboutmyself-card-button {
-  margin-top: 10px;
-  width: 160px;
-  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  background-color: transparent;
-  border: 1.75px solid #396df2;
-  border-radius: 8px;
-  padding: 10px 2px;
-  position: absolute;
 }
 
 .forced-margin {
@@ -551,4 +523,3 @@ a:hover {
   width: 160px;
   height: 48px;
 }
-
