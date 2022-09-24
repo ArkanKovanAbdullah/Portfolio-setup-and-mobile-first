@@ -271,10 +271,14 @@ a:hover {
 .see-more-btn {
   border: 1px solid #396df2;
   background-color: transparent;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 8px;
   margin-left: 20px;
   margin-bottom: 10px;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .about-myself {
@@ -409,7 +413,6 @@ a:hover {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 12px;
-  justify-content: baseline;
   width: 303px;
 }
 
