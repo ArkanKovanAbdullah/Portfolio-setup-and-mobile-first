@@ -547,8 +547,8 @@ a:hover {
 
 hr {
   box-sizing: border-box;
-  border: 5px solid #0D151E;
-  background-color: #0D151E;
+  border: 5px solid #0d151e;
+  background-color: #0d151e;
   width: 134px;
   height: 5px;
   border-radius: 10px;
@@ -563,6 +563,7 @@ hr {
     height: auto;
     gap: 10px;
   }
+
   .desktop-section-two-one {
     display: flex;
     flex-direction: column;
@@ -571,22 +572,25 @@ hr {
     padding-left: 24px;
     gap: 25px;
   }
+
   .projects-card-one {
     background-image: url("Snapshoot Portfolio desktop 1.svg");
-    width: 544px; 
+    width: 544px;
     aspect-ratio: 1.214285714285714/1;
     height: auto;
     background-repeat: no-repeat;
     margin: 24px 24px 24px 24px;
   }
+
   .projects-card-two {
     background-image: url("Snapshoot Portfolio 2.svg");
-    width: 544px; 
+    width: 544px;
     aspect-ratio: 1.214285714285714/1;
     height: auto;
     background-repeat: no-repeat;
     margin: 24px 24px 24px 24px;
   }
+
   .projects-card-three {
     background-image: url("Snapshoot Portfolio desktop.svg");
     width: 544px;
@@ -595,15 +599,17 @@ hr {
     background-repeat: no-repeat;
     margin: 24px 24px 24px 24px;
   }
+
   .projects-card-four {
     background-image: url("Snapshoot Portfolio 4.svg");
-    width: 544px; 
+    width: 544px;
     aspect-ratio: 1.214285714285714/1;
     height: auto;
     background-repeat: no-repeat;
     margin: 24px 24px 24px 24px;
   }
-  #remove-display{
+
+  #remove-display {
     display: none;
   }
 }
