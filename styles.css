@@ -47,10 +47,6 @@ header {
   margin: 0 0;
 }
 
-#my-name a:visited {
-  color: #6070ff;
-}
-
 #description-tex {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
@@ -79,6 +75,10 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+#my-name a:visited {
+  color: #6070ff;
 }
 
 .colored {
