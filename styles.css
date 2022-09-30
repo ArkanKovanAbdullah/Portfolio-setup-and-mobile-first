@@ -18,6 +18,15 @@ header {
   margin: auto;
 }
 
+#temp {
+  color: #091e42;
+  font-weight: 700;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0 0;
+}
+
 .Logo {
   font-weight: 700;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -114,7 +123,6 @@ a:hover {
   background-color: #fff;
   height: 90vh;
   margin: 0;
-  background-attachment: fixed;
 }
 
 #about-me {
@@ -530,7 +538,9 @@ a:hover {
 }
 
 .contact-me-input {
-  width: 100%;
+  width: 327px;
+  margin-left: auto;
+  margin-right: auto;
   height: 50px;
   border-radius: 5px;
   border: 1px solid #ebebff;
@@ -545,8 +555,7 @@ a:hover {
 }
 
 .textarea {
-  min-width: 100%;
-  max-width: 100%;
+  width: 327px;
   min-height: 200px;
   max-height: 200px;
   line-height: 50px;
@@ -565,6 +574,8 @@ a:hover {
   color: #6070ff;
   width: 160px;
   height: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr {
@@ -592,7 +603,7 @@ hr {
     height: auto;
     padding-top: 48px;
     padding-left: 24px;
-    gap: 25px;
+    gap: 20px;
   }
 
   .projects-card-one {
@@ -729,5 +740,11 @@ hr {
     padding-top: 12%;
     padding-left: 12%;
     padding-bottom: 50px;
+  }
+
+  .contact-me-input {
+    width: 447px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
