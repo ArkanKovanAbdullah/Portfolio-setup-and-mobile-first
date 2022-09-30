@@ -369,7 +369,11 @@ a:hover {
 }
 
 #languages-text {
+  width:100%;
+  margin-top:48px;
   margin-bottom: 36px;
+  display: flex;
+  flex-direction:row;
 }
 
 .languages-title {
@@ -392,7 +396,7 @@ a:hover {
 }
 
 .full-width {
-  width:100%;
+  width: 100%;
 }
 
 .fa-angle-down {
@@ -593,7 +597,6 @@ hr {
 
   .projects-card-one {
     background-image: url("Snapshoot Portfolio desktop 1.svg");
-    width: 544px;
     aspect-ratio: 1.214285714285714/1;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
@@ -604,7 +607,6 @@ hr {
 
   .projects-card-two {
     background-image: url("Snapshoot Portfolio 2.svg");
-    width: 544px;
     aspect-ratio: 1.214285714285714/1;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
@@ -616,9 +618,7 @@ hr {
 
   .projects-card-three {
     background-image: url("Snapshoot Portfolio desktop.svg");
-    width: 544px;
     aspect-ratio: 1.214285714285714/1;
-    height: auto;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
     width: 50%;
@@ -628,9 +628,7 @@ hr {
 
   .projects-card-four {
     background-image: url("Snapshoot Portfolio (1).svg");
-    width: 544px;
     aspect-ratio: 1.214285714285714/1;
-    height: auto;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
     order: 2;
@@ -644,7 +642,6 @@ hr {
   }
 
   .desk-nav {
-    display: block;
     height: auto;
     display: flex;
     gap: 10px;
@@ -658,7 +655,7 @@ hr {
     font-style: bold;
   }
 
-  .desk-nav span{
+  .desk-nav span {
     height: 20px;
   }
 
@@ -689,6 +686,7 @@ hr {
 
   .adaptive-section {
     width: 100%;
+    margin-left: auto;
   }
 
   .row {
