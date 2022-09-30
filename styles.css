@@ -71,6 +71,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -113,6 +114,7 @@ a:hover {
   background-color: #fff;
   height: 90vh;
   margin: 0;
+  background-attachment: fixed;
 }
 
 #about-me {
@@ -366,9 +368,11 @@ a:hover {
   margin-bottom: 10px;
 }
 
+#languages-text {
+  margin-bottom: 36px;
+}
+
 .languages-title {
-  margin-bottom: 10px;
-  margin-top: 50px;
   width: 100%;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
@@ -383,8 +387,12 @@ a:hover {
   justify-content: space-between;
   flex-direction: row;
   align-items: baseline;
-  margin-bottom: 10px;
+  margin-bottom: 48px;
   border-bottom: 1px solid grey;
+}
+
+.full-width {
+  width:100%;
 }
 
 .fa-angle-down {
@@ -393,7 +401,8 @@ a:hover {
 }
 
 .languages-bg {
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -454,9 +463,14 @@ a:hover {
 }
 
 .languages {
+  width: 70%;
   padding-top: 0;
   padding-bottom: 100px;
   background-color: #fff;
+}
+
+.desk-nav {
+  display: none;
 }
 
 .contact-me-bg {
@@ -581,18 +595,23 @@ hr {
     background-image: url("Snapshoot Portfolio desktop 1.svg");
     width: 544px;
     aspect-ratio: 1.214285714285714/1;
-    height: auto;
     background-repeat: no-repeat;
-    margin: 24px 24px 24px 24px;
+    margin: 24px 0 24px 24px;
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
   }
 
   .projects-card-two {
     background-image: url("Snapshoot Portfolio 2.svg");
     width: 544px;
     aspect-ratio: 1.214285714285714/1;
-    height: auto;
     background-repeat: no-repeat;
-    margin: 24px 24px 24px 24px;
+    margin: 24px 0 24px 24px;
+    order: 2;
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
   }
 
   .projects-card-three {
@@ -601,34 +620,116 @@ hr {
     aspect-ratio: 1.214285714285714/1;
     height: auto;
     background-repeat: no-repeat;
-    margin: 24px 24px 24px 24px;
+    margin: 24px 0 24px 24px;
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
   }
 
   .projects-card-four {
-    background-image: url("Snapshoot Portfolio 4.svg");
+    background-image: url("Snapshoot Portfolio (1).svg");
     width: 544px;
     aspect-ratio: 1.214285714285714/1;
     height: auto;
     background-repeat: no-repeat;
-    margin: 24px 24px 24px 24px;
+    margin: 24px 0 24px 24px;
+    order: 2;
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
   }
 
   #remove-display {
     display: none;
   }
-}
 
-@media (max-width: 327px) {
-  #section-two-one {
-    width: 85%;
+  .desk-nav {
+    display: block;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #344563;
+    font-family: sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: bold;
   }
 
-  .projects-card-one {
-    background-image: url("Snapshoot Portfolio desktop 1.svg");
+  .desk-nav span{
+    height: 20px;
+  }
+
+  .about-myself {
+    height: 800px;
+  }
+
+  .desktop-aboutmyself {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    margin-left: 142px;
+  }
+
+  .left-section {
+    width: 33%;
+    margin-right: 50px;
+  }
+
+  .section-four {
+    width: 70%;
+  }
+
+  .languages-bg {
+    align-items: flex-start;
+    margin-top: 144px;
+  }
+
+  .adaptive-section {
     width: 100%;
-    aspect-ratio: 1.214285714285714/1;
-    height: auto;
-    background-repeat: no-repeat;
-    margin: 24px 24px 24px 24px;
+  }
+
+  .row {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+  }
+
+  .language-container {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    border-radius: 8px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: 12px;
+  }
+
+  .languages-adaptive {
+    flex-direction: row;
+    margin: 0 !important;
+  }
+
+  .first-container {
+    margin-left: 0 !important;
+  }
+
+  .unselected-title {
+    margin-left: 20px;
+  }
+
+  #about-me {
+    width: 33%;
+    margin-right: 50px;
+  }
+
+  .desktop-me {
+    padding-top: 12%;
+    padding-left: 12%;
+    padding-bottom: 50px;
   }
 }
