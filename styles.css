@@ -21,10 +21,11 @@ header {
 #temp {
   color: #091e42;
   font-weight: 700;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 40px;
   line-height: 52px;
   margin: 0 0;
+  font-style: normal;
 }
 
 .Logo {
@@ -746,5 +747,9 @@ hr {
     width: 447px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #languages-text {
+    margin-top: 0;
   }
 }
